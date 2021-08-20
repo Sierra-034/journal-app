@@ -40,11 +40,14 @@ export const LoginScreen = () => {
                             <b>Sign in with google</b>
                         </p>
                     </div>
-
-                    <Link to='/auth/register'>
-                        Create new account
-                    </Link>
                 </div>
+                
+                <Link
+                    to='/auth/register'
+                    className='link'
+                >
+                    Create new account
+                </Link>
             </form>
         </>
     )
